@@ -53,8 +53,14 @@ body{
     position: relative;
     margin: auto;
     top: 200px;
+    transition-property: background border-radius transform;
+    transition-duration: 3s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .box3:hover{
     background: red;
+    border-radius: 50%;
+    transform: rotateY(240deg)
 }
