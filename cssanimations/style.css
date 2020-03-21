@@ -1,0 +1,19 @@
+body{
+    background: #333;
+}
+.box{
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: firstanimation;
+    animation-duration: 4s;
+}
+
+@keyframes firstanimation {
+    0% {background-color: #fff;}
+    25% {background-color: red;}
+    55% {background-color: green;}
+    75% {background-color: blue;}
+    100% {background-color: white;}
+}
