@@ -11,9 +11,9 @@ body{
 }
 
 @keyframes firstanimation {
-    0% {background-color: #fff;}
-    25% {background-color: red;}
-    55% {background-color: green;}
-    75% {background-color: blue;}
-    100% {background-color: white;}
+    0% {background-color: #fff; left: 0px; top: 0px;}
+    25% {background-color: red; left: 300px; top: 0px;}
+    55% {background-color: green; left: 300px; top: 300px;}
+    75% {background-color: blue; left: 0px; top: 300px;}
+    100% {background-color: white; left: 0px; top: 0px;}
 }
