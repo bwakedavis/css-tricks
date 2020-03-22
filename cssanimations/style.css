@@ -124,7 +124,7 @@ body{
 }
 
 .button:hover{
-    transform: rotateY(180deg);
+    transform: rotateZ(360deg) translateY(20px) scale(2);
 }
 
 @keyframes  buttonanimate{
